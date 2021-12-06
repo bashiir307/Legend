@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <title>Installation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ropa+Sans&display=swap');
+
+        body{
+            background: #fff;
+            font-family: 'sf pro display';
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+        }
+        .head {
+            background: #4B5054;
+            width: 100%;
+            height: 10rem;
+            padding-top: 20px;
+        }
+
+        .track{
+            font-size: 3.7rem;
+            text-align: center;
+            line-height: 42px;
+            margin-top: 9rem;
+            font-weight: 500;
+        }
+        .forms{
+            text-align: center;
+            margin-top: 60px;
+        }
+        #txt{
+            width: 52rem;
+            height: 6rem;
+            border: 1px solid #FF5200;
+            border-radius: 12px;
+            margin-top: 60px;
+            margin-right: 15px;
+            font-size: 29px;
+            padding-left: 15px;
+            font-weight: 500;
+        }
+        .btn{
+            width: 25rem;
+            height: 6rem;
+            color: #ffff;
+            background: #FF5200;
+            border: none;
+            border-radius: 12px;
+            margin-left: 20px;
+            font-size: 2rem;
+            top: 30px;
+        }
+        .btn:hover{
+            cursor: pointer;
+            transform: translate(1px) scale(1.01);
+            background-color: chocolate;
+        }
+        #par{
+            text-align: center;
+            margin-top: 5rem;
+            font-size: 25px;
+            line-height: 2rem;
+         }
+        @media (max-width: 768px){
+          body{
+              padding: 0;
+              margin: 0;
+              font-family: 'sf pro display';
+          }   
+          .head{
+              height: 90px;
+              width: 100%;
+          }
+          img{
+              width: 70%;
+          }
+          .track{
+              margin-top: 10px;
+              font-size: 38px;
+              margin-bottom: 0;
+          }
+          #txt{
+              width: 90%;
+              margin-top: -10px;
+              height: 70px;
+              font-size: 18px;
+              margin-left: 4px;
+              margin-right: 0;
+          }
+          .btn{
+              width: 70%;
+              height: 60px;
+              margin-top: 30px;
+              font-size: 18px;
+              margin-left: auto;
+              margin-right: 17px;
+          }
+          #par{
+              margin-top: 30px;
+              font-size: 22px;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <img src="./img/legend_rev.png" alt="" class="pic">
+        </div>
+        <div class="track">
+            <p>Legend Installation Tracker</p>
+        </div>
+        <form action="" class="forms">
+            <input type="text" placeholder="  Enter Email" id="txt">
+            <button class="btn">view installation status</button>
+        </form>
+    </div>
+    <p id="par">This portal gives you access to the details of your scheduled installation, the ability to track the progress of your installation and the contact details for your assigned installer </p>
+</body>
+</html>                                        
