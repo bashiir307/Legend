@@ -8,109 +8,134 @@
     <meta name="HandheldFriendly" content="true">
     <title>Installation</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ropa+Sans&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ropa+Sans&display=swap');
+        @font-face {
+            font-family: 'SF Pro Display';
+            font-style: normal;
+            font-weight: normal;
+            src: local('SF Pro Display'), url('SFPRODISPLAY.woff') format('woff');
+        }
 
-        body{
+        body {
             background: #fff;
             font-family: 'sf pro display';
             margin: 0;
             padding: 0;
         }
-        img{
+
+        .head {
+            background: #4B5054;
+            height: 8rem;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .head img {
             display: flex;
             margin-left: auto;
             margin-right: auto;
-            width: 25%;
-        }
-        .head {
-            background: #4B5054;
-            width: 100%;
-            height: 10rem;
-            padding-top: 20px;
+            padding-top: 10px;
         }
 
-        .track{
-            font-size: 3.7rem;
+        .track {
+            font-size: 2.5rem;
             text-align: center;
             line-height: 42px;
-            margin-top: 9rem;
+            margin-top: 5rem;
             font-weight: 500;
         }
-        .forms{
+
+        .forms {
             text-align: center;
-            margin-top: 60px;
+            margin-top: -40px;
         }
-        #txt{
-            width: 52rem;
-            height: 6rem;
+
+        #txt {
+            width: 33rem;
+            height: 3.5rem;
             border: 1px solid #FF5200;
             border-radius: 12px;
             margin-top: 60px;
             margin-right: 15px;
-            font-size: 29px;
+            font-size: 18px;
             padding-left: 15px;
             font-weight: 500;
         }
-        .btn{
-            width: 25rem;
-            height: 6rem;
+
+        .btn {
+            width: 20rem;
+            height: 3.5rem;
             color: #ffff;
             background: #FF5200;
             border: none;
             border-radius: 12px;
             margin-left: 20px;
-            font-size: 2rem;
+            font-size: 1.3rem;
             top: 30px;
         }
-        .btn:hover{
+
+        .btn:hover {
             cursor: pointer;
             transform: translate(1px) scale(1.01);
             background-color: chocolate;
         }
-        #par{
+
+        #par {
             text-align: center;
-            margin-top: 5rem;
-            font-size: 25px;
+            margin-left: 18rem;
+            margin-right: 20rem;
+            margin-top: 2.5rem;
+            font-size: 18px;
             line-height: 2rem;
-         }
-        @media (max-width: 768px){
-          body{
-              padding: 0;
-              margin: 0;
-              font-family: 'sf pro display';
-          }   
-          .head{
-              height: 90px;
-              width: 100%;
-          }
-          img{
-              width: 70%;
-          }
-          .track{
-              margin-top: 10px;
-              font-size: 38px;
-              margin-bottom: 0;
-          }
-          #txt{
-              width: 90%;
-              margin-top: -10px;
-              height: 70px;
-              font-size: 18px;
-              margin-left: 4px;
-              margin-right: 0;
-          }
-          .btn{
-              width: 70%;
-              height: 60px;
-              margin-top: 30px;
-              font-size: 18px;
-              margin-left: auto;
-              margin-right: 17px;
-          }
-          #par{
-              margin-top: 30px;
-              font-size: 22px;
-          }
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 0;
+                margin: 0;
+                font-family: 'sf pro display';
+            }
+
+            .head {
+                height: 90px;
+                width: 100%;
+            }
+
+            img {
+                width: 70%;
+            }
+
+            .track {
+                margin-top: 10px;
+                font-size: 38px;
+                margin-bottom: 5rem;
+            }
+
+            #txt {
+                width: 90%;
+                margin-top: -10px;
+                height: 70px;
+                font-size: 18px;
+                margin-left: 4px;
+                margin-right: 0;
+            }
+
+            .btn {
+                width: 70%;
+                height: 60px;
+                margin-top: 30px;
+                font-size: 18px;
+                margin-left: auto;
+                margin-right: 17px;
+            }
+
+            #par {
+                margin-top: 30px;
+                font-size: 22px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
         }
     </style>
 </head>
